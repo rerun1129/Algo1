@@ -22,9 +22,6 @@ public class BubbleSort {
                 arr[i] = arr[i + 1];
                 arr[i + 1] = tmp;
             }
-            if (n == 2) {
-                break;
-            }
             BS(arr, n - 1);
         }
     }
