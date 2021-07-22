@@ -6,12 +6,14 @@ public class MaxFind {
 
         MaxFind p = new MaxFind();
 
-        int[]data = new int[3];
+        int[]data = new int[5];
         data[0]= 5;
         data[1]= 6;
         data[2]= 11;
+        data[3]= 18;
+        data[4]= 3;
 
-        System.out.println(p.findMax(data, 0, 2));
+        System.out.println(p.findMax(data, 0, 4));
     }
     int findMax(int[] data, int begin, int end) {
         if (begin == end)
