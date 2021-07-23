@@ -2,7 +2,7 @@ package 정렬;
 
 import java.util.PriorityQueue;
 
-public class HeapSort {
+public class HeapSort  {
 
     public static void main(String[] args) {
         int[] data = {2, 8, 6, 1, 10, 15, 3, 12, 11};
